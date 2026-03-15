@@ -3,6 +3,10 @@
 
 This repository contains the official implementation of the senior project: **Automatic Eyeglasses Removal from Face Images**. The proposed system utilizes Generative Adversarial Networks (GANs) with a 5-Channel input design and a dual-discriminator architecture to seamlessly remove eyeglasses and reconstruct eye regions while preserving the original facial identity.
 
+## 📄 Research Paper
+รายละเอียดทฤษฎี สถาปัตยกรรมโมเดล และการวิเคราะห์ผลการทดลองฉบับสมบูรณ์ สามารถอ่านได้ในบทความวิชาการของเรา (ฉบับภาษาไทย):
+👉 **[Read the Full Paper (PDF)](paper_project.pdf)**
+
 ## 🌟 Key Features
 * **Eyeglasses Segmentation:** Utilizes U-Net with a ResNet34 backbone to accurately detect and mask eyeglasses.
 * **5-Channel Input Representation:** Combines RGB image, Eyeglasses Mask, and MediaPipe Eye Landmarks to guide the generator.
@@ -26,5 +30,5 @@ The project is divided into 4 main Jupyter Notebooks covering the entire pipelin
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/YourUsername/Eyeglasses-Removal-GAN.git](https://github.com/YourUsername/Eyeglasses-Removal-GAN.git)
+   git clone [https://github.com/jijujars/Eyeglasses-Removal-GAN.git](https://github.com/jijujars/Eyeglasses-Removal-GAN.git)
    cd Eyeglasses-Removal-GAN
