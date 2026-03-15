@@ -30,5 +30,5 @@ The project is divided into 4 main Jupyter Notebooks covering the entire pipelin
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/jijujars/Eyeglasses-Removal-GAN.git](https://github.com/jijujars/Eyeglasses-Removal-GAN.git)
+   git clone [https://github.com/Tanapat-CR/Eyeglasses-Removal-GAN.git](https://github.com/Tanapat-CR/Eyeglasses-Removal-GAN.git)
    cd Eyeglasses-Removal-GAN
